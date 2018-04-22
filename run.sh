@@ -21,8 +21,9 @@ sudo apt-get update
 echo 'Installing Unzip...'
 sudo apt-get install unzip -y
 
-echo 'Installing libpython-dev...'
-sudo apt-get install libpython-dev -y
+echo 'Installing python3...'
+sudo apt-get install python3
+python --version | echo
 
 echo 'Grabbing AWS CLI...'
 wget https://s3.amazonaws.com/aws-cli/awscli-bundle.zip
